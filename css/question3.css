@@ -1,0 +1,60 @@
+#inputArea {
+    width: 80%;
+    margin: 3em auto;
+    vertical-align: middle;
+}
+
+#inputArea label {
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: bolder;
+    color: hsl(186 100% 69%);
+}
+
+#inputArea label, #inputArea button {
+    display: block;
+}
+
+#inputArea button {
+    width: 30%;
+    background: hsl(186 100% 69%);
+    border: 0;
+    color: white;
+    height: 30px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+#inputArea button:hover {
+    color: blue;
+}
+
+textarea {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    font-size: 1.3em;
+    resize: vertical;
+}
+
+table {
+    visibility: hidden;
+    width: 80%;
+    margin: 1em auto;
+}
+
+table thead {
+    color: hsl(186 100% 69%);
+    font-size: 2em;
+}
+td {
+    text-align: center;
+    border: 1px solid hsl(186 100% 69%);
+    font-size: 1.3em;
+    padding: 1em 0;
+}
+td span {
+    color: red;
+}

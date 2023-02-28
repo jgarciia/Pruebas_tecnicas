@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 98%;
+    margin: 0.5em auto;
+    border-radius: 10px;
+    background-color: hsl(186 100% 69%);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0.3em 1.5em;
+    font-size: 2em;
+    font-weight:bolder;
+    color: white;
+    border: hsl(186 100% 69%);
+}
+
+header a:hover {
+    color: blue;
+}

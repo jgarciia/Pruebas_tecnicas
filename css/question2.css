@@ -1,0 +1,13 @@
+.container {
+    width: 80%;
+    margin: 2em auto;
+}
+
+#question {
+    color: blue;
+}
+
+#answer h3 {
+    font-family: "Gill Sans", sans-serif;
+    margin-top: 1em;
+}
